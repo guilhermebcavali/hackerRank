@@ -7,10 +7,9 @@ import java.util.Map;
 class Result {
   /*
    * Estruturas utilizadas na resoluçã0:
-   * Fila de Prioridade Mínima para adicionar as menores somas;
-   * Fila de Prioridade Máxima para adicionar as maiores somas;
+   * HashMap para armazenar a quantidade de cada proporcao;
    */
-  
+
   public static void plusMinus(List<Integer> arr) {
     // Mapa para contar positivos, negativos e zeros
     Map<String, Integer> propMap = new HashMap<String, Integer>();
